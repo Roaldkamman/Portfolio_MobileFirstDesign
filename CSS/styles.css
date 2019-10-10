@@ -155,9 +155,10 @@ p {
 }
 
 footer {
-    background: rgb(179, 179, 179);
+    background: rgb(202, 201, 201);
     padding-top: 5%;
-    margin-top: 10%
+    margin-top: 10%;
+    position: relative;
 }
 
 .clearfix::after {
@@ -166,10 +167,39 @@ footer {
     display: table;
 }
 
+.backtotop {
+    float: right;
+    margin-right: 8%;
+}
+
+.name {
+    float: left;
+    margin-left:8%;
+    font-size: 30px;
+}
+
+.bottom-nav {
+    display: none;
+}
+
 @media (min-width: 768px) {
 
     li { display: inline-block; 
     margin-right: 2%;
+    }
+
+    .bottom-nav {
+        display: block;
+        width: 60%;
+        position: absolute;
+        right: 0px;
+        bottom: 44px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .backtotop {
+        display: none;
     }
     
     .profile-image {
@@ -244,6 +274,10 @@ footer {
         display: block;
         width: 60%;
         margin-top:25px;
+    }
+
+    .bottom-nav {
+        right: -7%;
     }
 
     .bar {
