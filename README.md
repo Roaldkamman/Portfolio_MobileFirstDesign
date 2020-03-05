@@ -1,2 +1,8 @@
 # Project2
- second project. This project will be started once I finished project1. And this file will serve as a temporary placeholder.
+ 
+
+ Second project displaying responsive mobile-first design. 
+
+ This code is currently using floats and media queries. 
+
+ For future projects I would prefer using either FlexBox or Bootstrap.
